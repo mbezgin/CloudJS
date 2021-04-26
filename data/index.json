@@ -5,29 +5,33 @@
     "tags": [
       "Abraham",
       "Lincoln"
-    ]
+    ],
+    "id": "_6i5966s85"
   },
   {
     "author": "Albert Einstein",
-    "text": "If A is success in life, then A equals x plus y plus z. Work is x; y is play; and z is keeping your mouth shut."
+    "text": "If A is success in life, then A equals x plus y plus z. Work is x; y is play; and z is keeping your mouth shut.",
+    "id": "_8sws9nx5j"
   },
   {
     "author": "Alexis Carrel",
-    "text": "All great men are gifted with intuition. They know without reasoning or analysis, what they need to know."
+    "text": "All great men are gifted with intuition. They know without reasoning or analysis, what they need to know.",
+    "id": "_j5boq3fpv"
   },
   {
     "author": "Amy Tan",
-    "text": "I am like a falling star who has finally found her place next to another in a lovely constellation, where we will sparkle in the heavens forever."
+    "text": "I am like a falling star who has finally found her place next to another in a lovely constellation, where we will sparkle in the heavens forever.",
+    "id": "_099qhseuy"
   },
   {
     "author": "Lao Tzu",
-    "text": "Silence is a source of great strength."
+    "text": "Silence is a source of great strength.",
+    "id": "_v9nsog6js"
   },
   {
     "author": "Oscar Wilde",
     "text": "Be yourself; everyone else is already taken.",
     "id": "_3tkkf2jmd",
-    "isDeleted": false,
     "createdAt": 1618988798267,
     "updatedAt": 1619035567993
   },
@@ -35,7 +39,6 @@
     "author": "Marilyn Monroe",
     "text": "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.",
     "id": "_lpwgs2oyi",
-    "isDeleted": false,
     "createdAt": 1619015168867,
     "updatedAt": 1619035628694
   }

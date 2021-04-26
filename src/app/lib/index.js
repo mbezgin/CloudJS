@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const randomItem = (items) => items[Math.floor(Math.random() * items.length)];
+const getRandomItem = (items) => items[Math.floor(Math.random() * items.length)];
 
 const getQuotesByTag = (tag, quotes) => quotes.filter(({ tags, text }) => {
   const tagsString = tags ? tags.join(' ') : '';
@@ -17,7 +17,7 @@ const saveQuotes = (quotes) => {
 const getID = () => `_${Math.random().toString(36).substr(2, 9)}`;
 
 module.exports = {
-  randomItem,
+  getRandomItem,
   getQuotesByTag,
   saveQuotes,
   getID,

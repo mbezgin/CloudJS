@@ -1,5 +1,5 @@
 const {
-  randomItem,
+  getRandomItem,
   getQuotesByTag,
   saveQuotes,
   getID,
@@ -18,7 +18,7 @@ module.exports.getRandom = (req, res) => {
     return res.status(404).send('No quotes for provided tag.');
   }
 
-  res.send(randomItem(quotes));
+  res.send(getRandomItem(quotes));
 };
 
 module.exports.create = (req, res) => {
@@ -35,7 +35,6 @@ module.exports.create = (req, res) => {
     author,
     text,
     id: getID(),
-    isDeleted: false,
     createdAt: Date.now(),
   };
 
@@ -65,7 +64,7 @@ module.exports.update = (req, res) => {
 
   const quoteIndex = quotesData.findIndex((quote) => quote.id === id);
 
-  if (!~quoteIndex) {
+  if (quoteIndex === -1) {
     return res.status(404).send('No quote found.');
   }
 
