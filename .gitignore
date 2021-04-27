@@ -1,6 +1,6 @@
 node_modules/
 .idea/
 .vscode/
-static/
+/static/
 dist/
 coverage/
