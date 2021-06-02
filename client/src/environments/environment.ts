@@ -7,7 +7,7 @@ export const environment = {
 
   apiUrls: {
     quote: '/api', // Put here your QUOTE API BASE URL. E.g.: api or https://quote.com/api
-    share: '', // Put here your SHARE API BASE URL. E.g.: api or https://share.com/api
+    share: 'https://eziy3f50g6.execute-api.us-east-1.amazonaws.com', // Put here your SHARE API BASE URL. E.g.: api or https://share.com/api
   },
 };
 

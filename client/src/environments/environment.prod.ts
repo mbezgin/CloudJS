@@ -3,6 +3,6 @@ export const environment = {
 
   apiUrls: {
     quote: '/api',
-    share: ''
+    share: 'https://eziy3f50g6.execute-api.us-east-1.amazonaws.com'
   },
 };
